@@ -1,0 +1,20 @@
+main {
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 0 20px; /* Espacio a ambos lados del contenido */
+    text-align: justify; /* Texto justificado */
+  }
+  @media screen and (max-width: 768px) {
+    main {
+      padding: 0 10px; /* Espacio reducido a ambos lados del contenido */
+      font-size: 90%; /* Tamaño de fuente reducido */
+    }
+  }
+  img {
+    max-width: 100%;
+    float: left;
+    margin: 0 1em 1em 0;
+  }
+  
+  
+  
